@@ -11,18 +11,19 @@ int main(void)
 	{
 		for (m = n + 1; m <= 9; m++)
 		for (i = m + 1; i <= 9; i++)
-	{
-	putchar(n + '0');
-	putchar(m + '0');
-	putchar(i + '0');
+		{
+			putchar(n + '0');
+			putchar(m + '0');
+			putchar(i + '0');
 
-	if (n < 8 || m < 9 || i < 9)
-	{
-	putchar(',');
-	putchar(' ');
-	}
-	}
+			if (n < 8 || m < 9 || i < 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
 }
+
