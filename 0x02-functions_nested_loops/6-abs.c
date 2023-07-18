@@ -5,7 +5,7 @@
  * @n: the int to check
  * Return: absolute value of int
  */
-int _abs(int)
+int _abs(int r)
 {
 	if (r >= 0)
 	{
@@ -13,6 +13,6 @@ int _abs(int)
 	}
 	else
 	{
-	return (r * -1)
+	return (-r);
 	}
 }
