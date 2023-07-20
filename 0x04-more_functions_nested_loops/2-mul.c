@@ -9,7 +9,7 @@
 
 int mul(int a, int b)
 {
-	_putchar (a * b)
+	_putchar (a * b);
 
-		return (0);
+	return (0);
 }
