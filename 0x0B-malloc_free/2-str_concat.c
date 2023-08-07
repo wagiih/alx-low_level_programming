@@ -9,7 +9,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *i;
-	iny a, b;
+	int a, b;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -35,6 +35,6 @@ char *str_concat(char *s1, char *s2)
 		i[a] = s1[b];
 		a++, b++;
 	}
-	i[a] = '\0'
+	i[a] = '\0';
 	return (i);
 }
